@@ -1,0 +1,11 @@
+2011.03.18
+
+Good blog post entry from John Resig,
+
+  http://ejohn.org/blog/dictionary-lookups-in-javascript/
+
+in which he provides a perl snippet to serve dictionary entries.
+
+Here I've converted it to PSGI. It went from like 350 requests/sec to over 2500
+requests/sec, running through starman or twiggy.
+
